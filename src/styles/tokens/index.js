@@ -42,6 +42,12 @@ const designTokens = {
         base: '#000',
       },
 
+      grey: {
+        base: '#9c9c9c',
+        lighter: '#d3d3d3',
+        lightest: '#f2f2f2'
+      },
+
       console: {
         headerTop: "#e4e4e4",
         headerBottom: "#d2d2d2",
