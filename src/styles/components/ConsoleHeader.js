@@ -27,12 +27,11 @@ const ConsoleActionButton = styled.button`
   border-radius: 50%;
   border: 1px solid;
   outline: 0;
-  border: 0;
   cursor: pointer;
 
   img {
-    width: 8px;
-    height: 8px;
+    width: ${tokens.space(1)};
+    height: ${tokens.space(1)};
   }
 `
 

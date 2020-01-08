@@ -20,7 +20,7 @@ export const Console = styled.section`
   ) : (
     `
       min-height: 70vh;
-      height: 500px;
+      height: 32rem;
     `
   )};
   border-radius: 10px;
@@ -32,7 +32,7 @@ export const Console = styled.section`
       border-bottom-right-radius: 0;
     `
   )};
-  padding-bottom: 30px;
+  padding-bottom: ${tokens.space(4)} ;
   font-family: 'Ubuntu Mono', monospace;
   color: ${tokens.color('white')};
   overflow: hidden;
