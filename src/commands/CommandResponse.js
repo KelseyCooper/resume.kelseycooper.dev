@@ -1,4 +1,6 @@
 export const help = `
+  <br/>
+
   <p>Welcome to the resume of Kelsey Cooper.</p>
 
   <p>Use the following commands to navigate this resume:</p>
