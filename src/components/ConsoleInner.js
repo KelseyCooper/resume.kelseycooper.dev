@@ -73,14 +73,13 @@ function ConsoleInner() {
       return;
     }
 
-    if (event.which >= 49) {
-      setTerminalInput(terminalInput + event.key);
-    }
+    setTerminalInput(terminalInput + event.key);
   }
 
   const focusConsoleInput = () => {
+    const inputLength = consoleInputRef.current.value.length;
     consoleInputRef.current.focus();
-    consoleInputRef.current.setSelectionRange(9, 9);
+    consoleInputRef.current.setSelectionRange(inputLength, inputLength);
   }
 
   return(
@@ -95,10 +94,9 @@ function ConsoleInner() {
       <S.ConsoleInput
         ref={consoleInputRef}
         value={terminalInput}
-        onKeyUp={handleKeyPress}
+        onKeyPress={handleKeyPress}
         spellCheck="false"
         type="text"
-        keyboardType="default"
       />
     </S.ConsoleInner>
   )

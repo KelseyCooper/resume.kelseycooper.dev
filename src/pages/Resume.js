@@ -12,7 +12,7 @@ import {
   resumeEducation } from '../content/Resume';
 import * as S from '../styles/components/Resume';
 
-function Resume() {
+function Resume({hideReturnButton}) {
   const history = useHistory();
 
   const handleClick = () => {
@@ -21,11 +21,13 @@ function Resume() {
 
   return (
     <S.Resume>
-      <MiniConsole
-        clickAction={handleClick}
-        text=">Back"
-        positionFixed={true}
-      />
+      {!hideReturnButton && (
+        <MiniConsole
+          clickAction={handleClick}
+          text=">Back"
+          positionFixed={true}
+        />
+      )}
       <S.ResumeColumnFirst>
         {resumeIntro.intro && (
           <S.ResumeIntro>

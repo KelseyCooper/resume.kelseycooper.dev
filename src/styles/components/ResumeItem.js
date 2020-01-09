@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import tokens from '../tokens';
+import media from '../media';
 
 export const ResumeItem = styled.div`
   padding: ${tokens.space(5)};
@@ -61,25 +62,36 @@ export const ResumeListColumnItem = styled.li`
 export const ResumeListRow = styled.ul`
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   padding: 0;
+
+  @media ${media.tablet} {
+    flex-direction: row;
+  }
 `
 
 export const ResumeListRowItem = styled.li`
   position: relative;
   padding: 0;
-  padding-right: ${tokens.space(1)};
-  padding-left: ${tokens.space(1)};
+  padding-right: ${tokens.space(2)};
   list-style: none;
   font-family: 'Ubuntu Mono', monospace;
 
+  @media ${media.tablet} {
+    padding-right: ${tokens.space(1)};
+    padding-left: ${tokens.space(1)};
+  }
+
   &::after {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 2px;
-    top: 0;
-    right: 0;
-    background-color: ${tokens.brand('primary')};
+    @media ${media.tablet} {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 2px;
+      top: 0;
+      right: 0;
+      background-color: ${tokens.brand('primary')};
+    }
   }
 
   &:last-child {

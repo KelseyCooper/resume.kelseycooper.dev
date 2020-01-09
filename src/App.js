@@ -4,6 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import { isAndroid } from 'react-device-detect';
 
 import { Normalize } from 'styled-normalize';
 import GlobalStyle from './styles/GlobalStyle';
@@ -19,7 +20,7 @@ function App() {
         <GlobalStyle />
         <Switch>
           <Route exact path="/">
-            <Home />
+            {isAndroid ? <Resume hideReturnButton={true} /> : <Home />}
           </Route>
           <Route exact path="/resume">
             <Resume />
