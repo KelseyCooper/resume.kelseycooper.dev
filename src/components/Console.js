@@ -32,7 +32,7 @@ function Console() {
     <>
     {consoleOpen ? (
       <S.ConsoleWrapper>
-        <S.ConsoleInstructions>type 'help' &amp; press return for is list of commands</S.ConsoleInstructions>
+        <S.ConsoleInstructions>type 'help' &amp; press return for a list of commands</S.ConsoleInstructions>
         <S.Console
           consoleMinimized={consoleMinimized}
           consoleExpanded={consoleExpanded}
