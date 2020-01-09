@@ -68,15 +68,13 @@ function ConsoleInner() {
           seTerminalHistory(oldHistory => [...oldHistory, {__html: `<p>Unknown command, type 'help' for all commands</p>`}]);
       }
       return;
+    } else if (key === 'Backspace' && value !== terminalPrefix) {
+      setTerminalInput(terminalInput.slice(0, -1));
+      return;
     }
 
-    setTerminalInput(terminalInput + event.key);
-  }
-
-  const handleBackSpace = event => {
-    // Check if backspace has been pressed
-    if (event.keyCode === 8 && event.target.value !== terminalPrefix) {
-      setTerminalInput(terminalInput.slice(0, -1));
+    if (event.which >= 49) {
+      setTerminalInput(terminalInput + event.key);
     }
   }
 
@@ -97,8 +95,7 @@ function ConsoleInner() {
       <S.ConsoleInput
         ref={consoleInputRef}
         value={terminalInput}
-        onKeyPress={handleKeyPress}
-        onKeyDown={handleBackSpace}
+        onKeyDown={handleKeyPress}
         spellCheck="false"
         type="text"
         keyboardType="default"
