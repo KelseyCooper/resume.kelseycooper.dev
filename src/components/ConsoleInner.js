@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useHistory } from "react-router-dom";
+
 import * as S from '../styles/components/ConsoleInner';
-import * as CommandResponse from '../commands/CommandResponse';
+import * as CommandResponse from '../content/CommandResponse';
 
 function ConsoleInner() {
   const terminalPrefix = 'resume > '
@@ -8,6 +10,7 @@ function ConsoleInner() {
   const [terminalHistory, seTerminalHistory] = useState([]);
   const consoleRef = useRef(null);
   const consoleInputRef = useRef(null);
+  const history = useHistory();
 
   useEffect(() => {
     focusConsoleInput();
@@ -49,6 +52,9 @@ function ConsoleInner() {
           break;
         case terminalPrefix + 'skills':
           seTerminalHistory(oldHistory => [...oldHistory, {__html: CommandResponse.skills}]);
+          break;
+        case terminalPrefix + 'pretty':
+          history.push("/resume");
           break;
         case terminalPrefix + 'ls':
           seTerminalHistory(oldHistory => [...oldHistory, {__html: `<p>This isn't a normal console!</p>`}]);

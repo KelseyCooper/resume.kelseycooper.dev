@@ -1,20 +1,31 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 import { Normalize } from 'styled-normalize';
 import GlobalStyle from './styles/GlobalStyle';
-import Console from './components/Console';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import * as S from './styles/components/App';
+import Home from './pages/Home';
+import Resume from './pages/Resume';
+import * as S from './styles/App';
 
 function App() {
   return (
     <S.App className="App">
-      <Normalize />
-      <GlobalStyle />
-      <Header />
-      <Console />
-      <Footer />
+      <Router>
+        <Normalize />
+        <GlobalStyle />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/resume">
+            <Resume />
+          </Route>
+        </Switch>
+      </Router>
     </S.App>
   );
 }

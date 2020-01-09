@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import ConsoleHeader from './ConsoleHeader';
 import ConsoleInner from './ConsoleInner';
+import MiniConsole from './MiniConsole';
 import * as S from '../styles/components/Console';
 
 function Console() {
@@ -44,7 +45,10 @@ function Console() {
     ) : (
       <S.ConsoleClosed>
         <p>why would you do that!?</p>
-        <button onClick={openConsole}>open it back up!</button>
+        <MiniConsole
+          clickAction={openConsole}
+          text=">Open"
+        />
       </S.ConsoleClosed>
     )}
     </>
