@@ -73,7 +73,7 @@ function ConsoleInner() {
       return;
     }
 
-    if (event.which >= 49 && event.which !== 'undefined') {
+    if (event.which >= 49) {
       setTerminalInput(terminalInput + event.key);
     }
   }
@@ -95,7 +95,7 @@ function ConsoleInner() {
       <S.ConsoleInput
         ref={consoleInputRef}
         value={terminalInput}
-        onKeyDown={handleKeyPress}
+        onKeyUp={handleKeyPress}
         spellCheck="false"
         type="text"
         keyboardType="default"
