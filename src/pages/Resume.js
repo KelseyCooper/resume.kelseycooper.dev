@@ -38,9 +38,9 @@ function Resume() {
         <ResumeItem title="Skills" type="skills" data={resumeSkills} />
       </S.ResumeColumnFirst>
       <S.ResumeColumnSecond>
-        <ResumeItem title="Skills" type="projects" data={resumeProjects} />
-        <ResumeItem title="Education" data={resumeEducation} />
+        <ResumeItem title="Projects" type="projects" data={resumeProjects} />
         <ResumeItem title="Experience" data={resumeExperience} />
+        <ResumeItem title="Education" data={resumeEducation} />
       </S.ResumeColumnSecond>
     </S.Resume>
   )

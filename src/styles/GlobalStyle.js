@@ -16,7 +16,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.125rem;
   }
 
   h1,

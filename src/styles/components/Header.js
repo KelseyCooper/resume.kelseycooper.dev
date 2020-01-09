@@ -10,6 +10,6 @@ export const Title = styled.h1`
   margin-top: 0;
 `
 
-export const Subtitle = styled.p`
-  margin-bottom: ${tokens.space(6)};
+export const Subtitle = styled.code`
+  margin-bottom: ${tokens.space(5)};
 `

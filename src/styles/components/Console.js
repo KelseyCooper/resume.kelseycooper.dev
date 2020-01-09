@@ -2,8 +2,20 @@ import styled from 'styled-components';
 import tokens from '../tokens';
 import { layoutMixin } from '../mixins/BaseLayout'
 
+export const ConsoleWrapper = styled.div`
+   ${layoutMixin}
+`
+
+export const ConsoleInstructions = styled.p`
+  display: inline-block;
+  padding: 4px 8px;
+  margin-top: ${tokens.space(4)};
+  margin-bottom: ${tokens.space(4)};
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: ${tokens.color('grey.lighter')} ;
+`
+
 export const Console = styled.section`
-  ${layoutMixin}
   ${props => props.consoleExpanded ? (
     `
       position: absolute;

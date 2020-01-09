@@ -31,17 +31,20 @@ function Console() {
   return (
     <>
     {consoleOpen ? (
-      <S.Console
-        consoleMinimized={consoleMinimized}
-        consoleExpanded={consoleExpanded}
-      >
-        <ConsoleHeader
-          onCloseConsole={closeConsole}
-          onToggleMinimizeConsole={toggleMinimizeConsole}
-          onToggleExpandConsole={toggleExpandConsole}
-        />
-        <ConsoleInner />
-      </S.Console>
+      <S.ConsoleWrapper>
+        <S.ConsoleInstructions>type 'help' &amp; press return for is list of commands</S.ConsoleInstructions>
+        <S.Console
+          consoleMinimized={consoleMinimized}
+          consoleExpanded={consoleExpanded}
+        >
+          <ConsoleHeader
+            onCloseConsole={closeConsole}
+            onToggleMinimizeConsole={toggleMinimizeConsole}
+            onToggleExpandConsole={toggleExpandConsole}
+          />
+          <ConsoleInner />
+        </S.Console>
+      </S.ConsoleWrapper>
     ) : (
       <S.ConsoleClosed>
         <p>Rude! :P</p>

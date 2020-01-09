@@ -14,6 +14,10 @@ export const ConsoleInner = styled.div`
     color: ${tokens.brand('primaryLight')};
   }
 
+  .highlight-brand {
+    color: ${tokens.brand('primary')};
+  }
+
   a {
     color: ${tokens.color('white')};
   }

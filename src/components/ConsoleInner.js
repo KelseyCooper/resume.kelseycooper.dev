@@ -82,7 +82,7 @@ function ConsoleInner() {
 
   const focusConsoleInput = () => {
     consoleInputRef.current.focus();
-    consoleInputRef.current.setSelectionRange(-1, -1);
+    consoleInputRef.current.setSelectionRange(9, 9);
   }
 
   return(
@@ -100,6 +100,8 @@ function ConsoleInner() {
         onKeyPress={handleKeyPress}
         onKeyDown={handleBackSpace}
         spellCheck="false"
+        type="text"
+        keyboardType="default"
       />
     </S.ConsoleInner>
   )

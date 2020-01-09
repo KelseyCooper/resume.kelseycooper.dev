@@ -13,17 +13,17 @@ export const help = `
 
   <p><span class="highlight">about</span> -- Show an excerpt about Kelsey</p>
 
-  <p><span class="highlight">experience</span> -- Show all relavant work history</p>
+  <p><span class="highlight">experience</span> -- Show all relevant work history</p>
 
-  <p><span class="highlight">education</span> -- Show all relavant education</p>
+  <p><span class="highlight">education</span> -- Show all relevant education</p>
 
   <p><span class="highlight">skills</span> -- Show a list of Kelsey's dev skills</p>
 
   <p><span class="highlight">projects</span> -- Show a list of Kelsey's past & current projects</p>
 
-  <p><span class="highlight">prettify</span> -- Show full resume</p>
-
   <p><span class="highlight">hire</span> -- Hire Kelsey immediately</p>
+
+  <p><span class="highlight-brand">prettify</span> -- Show full resume</p>
 
   <br/>
 `;
@@ -45,11 +45,11 @@ export const about = `
 
   <br/>
 
-  <p>When Kelsey turned 18 he needed to get out of Sooke and explore what the world had to offer. He packed his bags and moved 1 hour away to beautiful Victoria.</p>
+  <p>When Kelsey turned 18 he needed to get out of Sooke and explore what the world had to offer. He packed his bags and moved 1 hour away to the beautiful city of Victoria.</p>
 
-  <p>During Kelsey's 20s he spent a few years working in the trades, and trying to find where he fit into this world.</p>
+  <p>During Kelsey's 20s he spent a few years working in the trades, and trying to figure out where he fit into this world.</p>
 
-  <p>Not being challenged by the trades, and feeling a need for more Kelsey enrolled in The Pacific Design Academy to persue a career in Graphic Design.</p>
+  <p>Not being challenged by the trades, and feeling a need for more, Kelsey enrolled in The Pacific Design Academy to persue a career in Graphic Design.</p>
 
   <br/>
 
@@ -59,11 +59,17 @@ export const about = `
 
   <p>During Kelsey's education in design he was introduced to rudimentary web developement.</p>
 
-  <p>This introducation turned into a passion. Kelsey spent his days diving into the world of code and programmer instead of designing.</p>
+  <p>This introduction turned into a passion. Kelsey spent his days diving into the world of code and programming instead of designing.</p>
 
   <p>After a few years of learning code on his own, Kelsey decided the next step would be to enroll in a Bootcamp and commit to the developer path.</p>
 
-  <pIn 2017 Kelsey completed the Lighthouse Labs bootcamp in Victoria, and began his journey to becoming a true developer.</p>
+  <p>In 2017 Kelsey completed the Lighthouse Labs bootcamp in Victoria, and began his journey to becoming a true developer.</p>
+
+  <p>Post Lighthouse Labs Kelsey worked on a number of personal and paid for projects, including a Shopify shipping app for a wine distributing company<p>
+
+  <p>In July 2018 Kelsey was hired as a Junior developer at Pixel Union, where he learned more about Shopify, and contributed to the launch of large eCommerce stores</p>
+
+  <p>In June of 2019 Kelsey was hired as a contractor for Gearbox Built and was quickly asked to join the team. He worked on many projects including customization of existing Shopify/Wordpress sites, and ground up builds using Wordpress/Sage</p>
 
   <br/>
 
@@ -81,7 +87,7 @@ export const hire = `
 
   <p>Woah woah woah, let's not get ahead of ourselves, we barely know each other!</p>
 
-  <p>If you are interested in persuing this <i>working</i> relationship, lets sit down over a coffee, or a beer and get to know each other first.</p>
+  <p>If you are interested in persuing this <i>working</i> relationship, let's sit down over a coffee, or a beer, and get to know each other first.</p>
 
   <br/>
 
@@ -292,6 +298,7 @@ export const projects =`
 
 
   <p>Project: <a href="https://www.cellardirect.ca/collections/shop" rel="noopener noreferrer" target="_blank">Shopify Custom Shipping App</a>
+  <p>Repo: <a href="https://github.com/KelseyCooper/Shopify-Cellardirect-App" rel="noopener noreferrer" target="_blank">Github</a>
 
   <br />
 
@@ -308,6 +315,33 @@ export const projects =`
   <p>&nbsp;Polaris</p>
 
   <p>&nbsp;Express</p>
+
+  <br />
+
+  <p>--------------------</p>
+
+  <br />
+
+  <p>Project for: <span class="highlight">self</span> (no longer used)</p>
+
+
+  <p>Project: <a href="https://kcooper.me" rel="noopener noreferrer" target="_blank">Personal Blog Site</a>
+
+  <br />
+
+  <p>Full stack blog site for personal use. (who knew I didn't like writing blogs?)</p>
+
+  <br />
+
+  <p><span class="highlight">Stack:</span></p>
+
+  <p>&nbsp;React</p>
+
+  <p>&nbsp;GraphQL</p>
+
+  <p>&nbsp;Apollo</p>
+
+  <p>&nbsp;PostgreSQL</p>
 
   <br />
 

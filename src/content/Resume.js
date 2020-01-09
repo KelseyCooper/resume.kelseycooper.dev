@@ -73,6 +73,18 @@ export const resumeProjects = [
     description: 'Customizations to existing Shopify theme to work with functionality & branding.'
   },
   {
+    title: 'kcooper.me',
+    link: 'https://kcooper.me',
+    stack: [
+      'React',
+      'GraphQL',
+      'Apollo',
+      'Express',
+      'PostgreSQL'
+    ],
+    description: 'Full stack personal blog (no longer in use).'
+  },
+  {
     title: 'Shopify Custom Shipping App',
     link: 'https://github.com/KelseyCooper/Shopify-Cellardirect-App',
     stack: [
