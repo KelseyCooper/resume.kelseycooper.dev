@@ -69,11 +69,18 @@ function ConsoleInner() {
       }
       return;
     } else if (key === 'Backspace' && value !== terminalPrefix) {
-      setTerminalInput(terminalInput.slice(0, -1));
+        setTerminalInput(terminalInput.slice(0, -1));
       return;
     }
 
     setTerminalInput(terminalInput + event.key);
+  }
+
+  const handleBackSpace = event => {
+    // Check if backspace has been pressed
+    if (event.keyCode === 8 && event.target.value !== terminalPrefix) {
+      setTerminalInput(terminalInput.slice(0, -1));
+    }
   }
 
   const focusConsoleInput = () => {
@@ -95,6 +102,7 @@ function ConsoleInner() {
         ref={consoleInputRef}
         value={terminalInput}
         onKeyPress={handleKeyPress}
+        onKeyDown={handleBackSpace}
         spellCheck="false"
         type="text"
       />
