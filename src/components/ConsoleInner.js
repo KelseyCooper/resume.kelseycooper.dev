@@ -73,7 +73,7 @@ function ConsoleInner() {
       return;
     }
 
-    if (event.which >= 49) {
+    if (event.which >= 49 && event.which !== 'undefined') {
       setTerminalInput(terminalInput + event.key);
     }
   }
