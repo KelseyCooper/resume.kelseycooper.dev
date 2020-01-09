@@ -2,9 +2,13 @@ import styled from 'styled-components';
 import tokens from '../tokens';
 
 export const MiniConsole = styled.button`
-  position: ${props => props.positionFixed ? 'fixed' : 'relative'};
-  top: ${tokens.space(4)};
-  right: ${tokens.space(4)};
+  ${props => props.positionFixed ? (`
+    position: fixed;
+    top: ${tokens.space(4)};
+    right: ${tokens.space(4)};
+  `) : (`
+    postion: relative;
+  `)};
   width: 100%;
   padding: 0;
   height: ${tokens.space(8)};

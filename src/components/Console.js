@@ -44,7 +44,7 @@ function Console() {
       </S.Console>
     ) : (
       <S.ConsoleClosed>
-        <p>why would you do that!?</p>
+        <p>Rude! :P</p>
         <MiniConsole
           clickAction={openConsole}
           text=">Open"

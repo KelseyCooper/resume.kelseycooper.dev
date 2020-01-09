@@ -53,7 +53,7 @@ function ConsoleInner() {
         case terminalPrefix + 'skills':
           seTerminalHistory(oldHistory => [...oldHistory, {__html: CommandResponse.skills}]);
           break;
-        case terminalPrefix + 'pretty':
+        case terminalPrefix + 'prettify':
           history.push("/resume");
           break;
         case terminalPrefix + 'ls':

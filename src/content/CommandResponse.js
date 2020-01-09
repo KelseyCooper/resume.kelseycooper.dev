@@ -21,9 +21,9 @@ export const help = `
 
   <p><span class="highlight">projects</span> -- Show a list of Kelsey's past & current projects</p>
 
-  <p><span class="highlight">pretty</span> -- Show full resume</p>
+  <p><span class="highlight">prettify</span> -- Show full resume</p>
 
-  <p><span class="highlight">hire</span> -- Hire Kelsey emediately</p>
+  <p><span class="highlight">hire</span> -- Hire Kelsey immediately</p>
 
   <br/>
 `;
