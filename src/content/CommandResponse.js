@@ -159,171 +159,10 @@ export const experience = `
 `
 
 export const projects =`
-  <br />
-
-  <p>Project for: <span class="highlight">self</span></p>
-
-
-  <p>Project: <a href="https://github.com/KelseyCooper/Resume" rel="noopener noreferrer" target="_blank">Resume</a>
-
-  <br />
-
-  <p>A place to showcase skills to potential employers</p>
-
-  <br />
-
-  <p><span class="highlight">Stack:</span></p>
-
-  <p>&nbsp;React</p>
-
-  <br />
-
-  <p>--------------------</p>
-
-  <br />
-
-  <p>Project for: <span class="highlight">Gearbox Built</span></p>
-
-
-  <p>Project: <a href="http://quazarsarcade.com/" rel="noopener noreferrer" target="_blank">Quazars Arcade</a>
-
-  <br />
-
-  <p>Lead develop on a full build wordpress/sage site</p>
-
-  <br />
-
-  <p><span class="highlight">Stack:</span></p>
-
-  <p>&nbsp;Wordpress</p>
-
-  <p>&nbsp;Sage</p>
-
-  <p>&nbsp;PHP</p>
-
-  <p>&nbsp;Blade</p>
-
-  <p>&nbsp;SCSS</p>
-
-  <p>&nbsp;GSAP</p>
-
-  <br />
-
-  <p>--------------------</p>
-
-  <br />
-
-  <p>Project for: <span class="highlight">self</span></p>
-
-
-  <p>Project: <a href="https://the.boupers.party/" rel="noopener noreferrer" target="_blank">Wedding Website</a>
-
-  <br />
-
-  <p>Personal wedding website to give guests a place to learn more & RSVP</p>
-
-  <br />
-
-  <p><span class="highlight">Stack:</span></p>
-
-  <p>&nbsp;React</p>
-
-  <p>&nbsp;Gatsby</p>
-
-  <br />
-
-  <p>--------------------</p>
-
-  <br />
-
-  <p>Project for: <span class="highlight">Pixel Union</span></p>
-
-
-  <p>Project: <a href="https://www.blenderseyewear.com/" rel="noopener noreferrer" target="_blank">Blenders Eyewear</a>
-
-  <br />
-
-  <p>From the ground up Shopify theme working in a large team</p>
-
-  <br />
-
-  <p><span class="highlight">Stack:</span></p>
-
-  <p>&nbsp;Shopify</p>
-
-  <p>&nbsp;Liquid</p>
-
-  <p>&nbsp;JavaScript</p>
-
-  <p>&nbsp;SCSS</p>
-
-  <p>&nbsp;Shogun</p>
-
-  <p>&nbsp;Yotpo</p>
-
-  <br />
-
-  <p>--------------------</p>
-
-  <br />
-
-  <p>Project for: <span class="highlight">Pixel Union</span></p>
-
-
-  <p>Project: <a href="https://outofprint.com/" rel="noopener noreferrer" target="_blank">Out of Print</a>
-
-  <br />
-
-  <p>Customizations to existing Shopify theme to work with new branding & functionality</p>
-
-  <br />
-
-  <p><span class="highlight">Stack:</span></p>
-
-  <p>&nbsp;Shopify</p>
-
-  <p>&nbsp;Liquid</p>
-
-  <p>&nbsp;JavaScript</p>
-
-  <p>&nbsp;SCSS</p>
-
-  <br />
-
-  <p>--------------------</p>
-
-  <br />
-
-  <p>Project for: <span class="highlight">self</span></p>
-
-
-  <p>Project: <a href="https://www.cellardirect.ca/collections/shop" rel="noopener noreferrer" target="_blank">Shopify Custom Shipping App</a>
-  <p>Repo: <a href="https://github.com/KelseyCooper/Shopify-Cellardirect-App" rel="noopener noreferrer" target="_blank">Github</a>
-
-  <br />
-
-  <p>Integrated Shopify App to offer custom shipping alternative in a Shopify store</p>
-
-  <br />
-
-  <p><span class="highlight">Stack:</span></p>
-
-  <p>&nbsp;React</p>
-
-  <p>&nbsp;Redux</p>
-
-  <p>&nbsp;Polaris</p>
-
-  <p>&nbsp;Express</p>
-
-  <br />
-
-  <p>--------------------</p>
 
   <br />
 
   <p>Project for: <span class="highlight">self</span> (no longer used)</p>
-
 
   <p>Project: <a href="https://kcooper.me" rel="noopener noreferrer" target="_blank">Personal Blog Site</a>
 
@@ -369,6 +208,166 @@ export const projects =`
   <p>&nbsp;ChartJS</p>
 
   <p>&nbsp;Express</p>
+
+  <br />
+
+  <p>--------------------</p>
+
+  <br />
+
+  <p>Project for: <span class="highlight">self</span></p>
+
+  <p>Project: <a href="https://www.cellardirect.ca/collections/shop" rel="noopener noreferrer" target="_blank">Shopify Custom Shipping App</a>
+  <p>Repo: <a href="https://github.com/KelseyCooper/Shopify-Cellardirect-App" rel="noopener noreferrer" target="_blank">Github</a>
+
+  <br />
+
+  <p>Integrated Shopify App to offer custom shipping alternative in a Shopify store</p>
+
+  <br />
+
+  <p><span class="highlight">Stack:</span></p>
+
+  <p>&nbsp;React</p>
+
+  <p>&nbsp;Redux</p>
+
+  <p>&nbsp;Polaris</p>
+
+  <p>&nbsp;Express</p>
+
+  <br />
+
+  <p>--------------------</p>
+
+  <br />
+
+  <p>Project for: <span class="highlight">self</span></p>
+
+  <p>Project: <a href="https://the.boupers.party/" rel="noopener noreferrer" target="_blank">Wedding Website</a>
+
+  <br />
+
+  <p>Personal wedding website to give guests a place to learn more & RSVP</p>
+
+  <br />
+
+  <p><span class="highlight">Stack:</span></p>
+
+  <p>&nbsp;React</p>
+
+  <p>&nbsp;Gatsby</p>
+
+  <br />
+
+  <p>--------------------</p>
+
+  <br />
+
+  <p>Project for: <span class="highlight">Pixel Union</span></p>
+
+
+  <p>Project: <a href="https://outofprint.com/" rel="noopener noreferrer" target="_blank">Out of Print</a>
+
+  <br />
+
+  <p>Customizations to existing Shopify theme to work with new branding & functionality</p>
+
+  <br />
+
+  <p><span class="highlight">Stack:</span></p>
+
+  <p>&nbsp;Shopify</p>
+
+  <p>&nbsp;Liquid</p>
+
+  <p>&nbsp;JavaScript</p>
+
+  <p>&nbsp;SCSS</p>
+
+  <br />
+
+  <p>--------------------</p>
+
+  <br />
+
+  <p>Project for: <span class="highlight">Pixel Union</span></p>
+
+  <p>Project: <a href="https://www.blenderseyewear.com/" rel="noopener noreferrer" target="_blank">Blenders Eyewear</a>
+
+  <br />
+
+  <p>From the ground up Shopify theme working in a large team</p>
+
+  <br />
+
+  <p><span class="highlight">Stack:</span></p>
+
+  <p>&nbsp;Shopify</p>
+
+  <p>&nbsp;Liquid</p>
+
+  <p>&nbsp;JavaScript</p>
+
+  <p>&nbsp;SCSS</p>
+
+  <p>&nbsp;Shogun</p>
+
+  <p>&nbsp;Yotpo</p>
+
+  <br />
+
+  <p>--------------------</p>
+
+  <br />
+
+  <p>Project for: <span class="highlight">Gearbox Built</span></p>
+
+  <p>Project: <a href="http://quazarsarcade.com/" rel="noopener noreferrer" target="_blank">Quazars Arcade</a>
+
+  <br />
+
+  <p>Lead develop on a full build Wordpress/Sage site</p>
+
+  <br />
+
+  <p><span class="highlight">Stack:</span></p>
+
+  <p>&nbsp;Wordpress</p>
+
+  <p>&nbsp;Sage</p>
+
+  <p>&nbsp;PHP</p>
+
+  <p>&nbsp;Blade</p>
+
+  <p>&nbsp;SCSS</p>
+
+  <p>&nbsp;GSAP</p>
+
+  <br />
+
+  <p>--------------------</p>
+
+  <br />
+
+  <p>Project for: <span class="highlight">self</span></p>
+
+  <p>Project: <a href="https://github.com/KelseyCooper/Resume" rel="noopener noreferrer" target="_blank">Resume</a>
+
+  <br />
+
+  <p>A place to showcase skills to potential employers</p>
+
+  <br />
+
+  <p><span class="highlight">Stack:</span></p>
+
+  <p>&nbsp;React</p>
+
+  <br />
+
+  <p>--------------------</p>
 
   <br />
 `
